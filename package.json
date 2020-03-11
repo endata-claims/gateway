@@ -1,0 +1,30 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "dependencies": {
+    "@uppy/companion": "^1.9.5",
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link": "^1.2.13",
+    "apollo-link-context": "^1.0.19",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server-express": "^2.11.0",
+    "apollo-utilities": "^1.3.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.0",
+    "graphql": "^14.6.0",
+    "graphql-format-error-context-extension": "^0.2.15",
+    "graphql-request": "^1.8.2",
+    "graphql-tools": "^4.0.7",
+    "node-fetch": "^2.6.0",
+    "subscriptions-transport-ws": "^0.9.16",
+    "uuid": "^7.0.2",
+    "ws": "^7.2.3"
+  }
+}
