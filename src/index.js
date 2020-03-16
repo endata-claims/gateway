@@ -53,7 +53,7 @@ const {
   const app = express()
 
   app.use(cors({
-    origin: CORS_ORIGIN,
+    // origin: CORS_ORIGIN,
     // methods: CORS_METHODS,
     preflightContinue: false,
     optionsSuccessStatus: 204
