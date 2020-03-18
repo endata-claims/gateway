@@ -7,5 +7,6 @@ COPY ./package.json ./package.json
 RUN yarn
 
 COPY . .
+RUN yarn global add nodemon
 
-ENTRYPOINT yarn start
+ENTRYPOINT yarn dev

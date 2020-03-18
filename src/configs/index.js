@@ -13,6 +13,8 @@ const {
   COMPANION_AWS_REGION,
 
   CORS_ORIGIN = 'https://endata-sit.endataclaims.com',
+
+  VIDEO_SERVICE_BUCKET = 'video-service-bucket'
 } = process.env
 
 module.exports = {
@@ -28,4 +30,6 @@ module.exports = {
   COMPANION_AWS_REGION,
   COMPANION_AWS_USE_ACCELERATE_ENDPOINT,
   CORS_ORIGIN,
+
+  VIDEO_SERVICE_BUCKET
 }

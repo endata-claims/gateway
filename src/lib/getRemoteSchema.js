@@ -22,6 +22,7 @@ module.exports = async ({ name, uri, subUri }) => {
 
     return { headers: { authorization }}
   }).concat(new HttpLink({ uri, fetch }))
+
   const wsLink = subUri ? new SubscriptionClient(subUri, { reconnect: true }, ws) : null
   const link = subUri
     ? split(
